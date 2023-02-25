@@ -1,0 +1,28 @@
+.cover {
+  margin-top: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.cover:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,1);
+  opacity: 0.5;
+  transition: opacity 200ms ease-in-out;
+}
+
+.cover:hover:before {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    margin-top: 54px;
+  }
+}
