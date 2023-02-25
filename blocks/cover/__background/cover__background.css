@@ -1,6 +1,7 @@
 .cover__background {
   margin: 0 auto;
   width: min(1184px, 100%);
+  max-width: 100%;
   min-height: min(740px, calc(100vw * 5 / 8));
   display: flex;
   position: relative;
@@ -11,7 +12,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
 }
 
 .cover__background::before {

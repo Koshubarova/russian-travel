@@ -4,7 +4,7 @@
   min-height: 134px;
   max-width: 1184px;
   box-sizing: content-box;
-  min-height: 18px;
+  line-height: 18px;
   display: flex;
   justify-content: space-between;
 }
